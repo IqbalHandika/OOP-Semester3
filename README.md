@@ -12,7 +12,7 @@ Waitress: Mengelola interaksi pelayan dengan pelanggan. Method utamanya adalah t
 
 Cara Kompilasi
 Untuk meng-compile kode, gunakan perintah berikut di terminal:
-g++ -o dinerDash main.cpp Order.cpp Table.cpp Waitress.cpp
+g++ -std=c++11 -o DinerDash dinerdash/main.cpp dinerdash/order.cpp dinerdash/table/cpp dinerdash/waitress.cpp
 
 Cara Menjalankan Program
 Setelah di-compile, jalankan program dengan perintah:
